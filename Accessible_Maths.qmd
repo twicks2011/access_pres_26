@@ -1,0 +1,128 @@
+---
+title: "Accessible Maths Materials"
+subtitle: "Tools, Tips and Conversations"
+date: "03/10/2026"
+date-format: "D MMMM, YYYY"
+format: 
+  revealjs:
+    theme: default
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    touch: true
+    controls: true
+    footer: "Tom Wicks and Rachel Tunstall"
+    logo: images/UoL-logo.jpg
+    css: styles.css
+    code-fold: true
+    code-line-numbers: false
+---
+
+## Disclaimers
+
+::: incremental
+1. This session is not to **instruct** you on how you should or should not produce teaching materials.
+2. You cannot make all your existing materials accessible overnight. 
+3. We do not have all the answers to your specific needs, but we are happy to discuss and point you in the right direction.
+:::
+
+## Overview
+
+-   Accessibility principles
+-   Maths is special(?)
+-   Existing resources and communities
+-   Some(!) tools for creating accessible maths materials
+-   Keep in touch!
+
+## Accessibility Principles
+
+![](Images/accessibility-logos.png){fig-alt="A human figure surrounded by icons representing different accessible technologies" .absolute top=100 right=10 height=400}
+
+::: {.fragment fragment-index=1}
+SCALD:
+:::
+
+::: {.fragment fragment-index=2}
+**S**tructure
+:::
+
+:::: {.fragment fragment-index=3}
+::: {.fragment .highlight-red fragment-index=9}
+**C**olour, **C**ontrast and **C**aptions
+:::
+::::
+
+:::: {.fragment fragment-index=4}
+::: {.fragment .custom .highlight-orange fragment-index=8}
+**A**lt text
+:::
+::::
+
+:::: {.fragment fragment-index=5}
+::: {.fragment .custom .highlight-dgreen fragment-index=7}
+**L**ayouts and **L**anguage
+:::
+::::
+
+::: {.fragment fragment-index=6}
+**D**escriptive hyperlinks
+:::
+
+&nbsp;
+
+:::: {.fragment fragment-index=10}
+::: {.r-fit-text}
+Accessible materials benefit **everyone**
+:::
+::::
+
+## Maths is Special
+### 1. Equations
+Good solution is [MathJax](https://www.mathjax.org/about) rendering of equations to HTML
+
+::: fragment
+``` tex
+\begin{equation}
+\int_0^\infty e^{-x^2}\,\text{d}x=\frac{\sqrt{\pi}}{2}
+\end{equation}
+```
+:::
+
+::: fragment
+```{=tex}
+\begin{equation}
+\int_0^\infty e^{-x^2}\,\text{d}x=\frac{\sqrt{\pi}}{2}
+\end{equation}
+```
+:::
+
+## Maths is Special
+### 2. Handwriting
+
+## Maths is Special
+### 3. Graphs and Diagrams
+
+## Maths is Special
+### 4. Computing and Data Analysis
+
+## Existing Resources and Communities
+- Leicester guide
+- Colleagues!
+- University of York
+- TALMO
+- Make Maths Accessible
+- Bath (Claverton Down)
+
+## Some Tools
+- Chirun - conversion to multiple formats, support available
+- Pandoc - conversion of existing materials
+- R Markdown, R Markdown, Quarto - frameworks for creating rich interactive notes and presentations; ideal for statistics and data analysis materials
+- MS Office - shallow learning curve and ideal for relatively simple materials
+- Jupyter Notebooks/Books - great for notes on numerical computation or computing
+
+## Keep in touch!
+- Exchange contact details with anyone new you met today
+- Talk to us!
+  - Tom Wicks ([tom.wicks@leicester.ac.uk](mailto:tom.wicks@leicester.ac.uk))
+  - Rachel Tunstall ([rct13@leicester.ac.uk](mailto:rct13@leicester.ac.uk))
