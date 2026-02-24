@@ -13,7 +13,7 @@ format:
     touch: true
     controls: true
     footer: "Tom Wicks and Rachel Tunstall"
-    logo: images/UoL-logo.jpg
+    logo: Images/UoL-logo.jpg
     css: styles.css
     code-fold: true
     code-line-numbers: false
