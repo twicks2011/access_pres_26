@@ -2,6 +2,20 @@
    max-height: 2em !important;
 }
 
+.reveal .footer {
+  text-align: left; /* Align image and text to the left */
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: flex-start;
+  color: black;
+}
+
+/* Optional: Size the image in the footer */
+.reveal .footer img {
+  max-height: 100px; /* Adjust size as needed */
+  margin-bottom: 2px; /* Small space between image and text */
+}
+
 .slide-background-content {
   background-color: #FAFAFA;
 }
@@ -15,5 +29,5 @@
 .fragment.highlight-orange {
 }
 .fragment.highlight-orange.visible {
-  color: orange;
+  color: #E56717;
 }
