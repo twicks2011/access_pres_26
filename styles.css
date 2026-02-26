@@ -31,3 +31,18 @@
 .fragment.highlight-orange.visible {
   color: #E56717;
 }
+
+.reveal .loose-list li {
+  margin-bottom: 1.8em !important;
+}
+
+
+/* Hide 'handout' in overview grid, but not during the show */
+.reveal.overview .slides section#handout {
+  display: none !important;
+}
+
+/* Hide 'handout' from the reveal.js-menu plugin list */
+.reveal-menu .slide-menu-item[data-slide-id="handout"] {
+  display: none !important;
+}

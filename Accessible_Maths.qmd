@@ -243,7 +243,7 @@ theta = 2 * np.pi * r
 :::
 ::::
 
-## Maths is Special {data-visibility="hidden" visibility="uncounted" footer=false auto-animate=true}
+## Maths is Special {data-menu-title="Animated code blocks" footer=false auto-animate=true}
 ### 4. Computing
 :::: columns
 ::: {.column width="40%"}
@@ -271,7 +271,7 @@ plt.show()
 :::
 ::::
 
-## Maths is Special {data-visibility="hidden" visibility="uncounted" footer=false auto-animate=true}
+## Maths is Special {data-menu-title="Line highlighting" visibility="uncounted" footer=false auto-animate=true}
 ### 4. Computing
 :::: columns
 ::: {.column width="40%"}
@@ -331,7 +331,7 @@ plt.show()
 <!-- ::: -->
 <!-- :::: -->
 
-## Maths is Special {data-visibility="hidden" visibility="uncounted" footer=false auto-animate=true}
+## Maths is Special {data-menu-title="Code execution" visibility="uncounted" footer=false auto-animate=true}
 ### 4. Computing
 :::: columns
 ::: {.column width="40%"}
@@ -350,41 +350,83 @@ plt.show()
 
 
 ## Some Tools {footer=false}
-::: {style="font-size: 0.8em;"}
-- [Chirun](https://chirun.org.uk/) - conversion to multiple formats, support available
-- Pandoc - conversion of existing materials
+:::: {style="font-size: 0.75em;"}
+::: fragment
+- [Pandoc](https://pandoc.org/) - conversion of existing materials
   - [Some user-friendly tools and guidance](https://xerte.york.ac.uk/play.php?template_id=2036#LaTeX)
+:::
+
+::: fragment
+- [Chirun](https://chirun.org.uk/) - conversion to multiple formats, support available
+:::
+
+::: fragment
 - [R Markdown](https://rmarkdown.rstudio.com/), [R Bookdown](https://bookdown.org/), [Quarto](https://quarto.org/) - frameworks for creating rich interactive notes and presentations; ideal for statistics and data analysis materials
   - [R Bookdown Example](https://twicks2011.github.io/bookdown-eg/index.html)
+:::
+
+::: fragment
 - [MS Office Equation Editor](https://support.microsoft.com/en-gb/office/write-an-equation-or-formula-1d01cabc-ceb1-458d-bc70-7f9737722702#category=insert_equation) - shallow learning curve and ideal for relatively simple materials
+:::
+
+::: fragment
 - [Jupyter Notebooks](https://jupyter.org/), [Jupyter Books](https://jupyterbook.org/) - great for notes on numerical computation or computing
   - [Jupyter Book Example](https://twicks2011.github.io/jupyter-eg/main.html#)
 :::
+::::
 
 ## Existing Resources and Communities {footer=false}
-:::{style="font-size:0.8em"}
-- Leicester guidance from Learning Technology Team
+::::{style="font-size:0.75em"}
+::: {.fragment fragment-index=1}
+- Guidance from the Leicester Learning Technology Team
+:::
+
+::: {.fragment fragment-index=1}
 - Colleagues!
+:::
+
+::: fragment
 - [University of York](https://xerte.york.ac.uk/play.php?template_id=2036#Home) (extensive advice and resources)
-- [TALMO (Teaching and Learning Mathematics Online)](https://talmo.uk/index.html)
+:::
+
+::: fragment
 - [Bath](https://www.bath.ac.uk/projects/mathematics-accessibility/) (advice and resources, e.g. extension to R Bookdown)
+:::
+
+::: fragment
+- [TALMO (Teaching and Learning Mathematics Online)](https://talmo.uk/index.html)
+:::
+
+::: fragment
 - [Make Things Accessible](https://www.makethingsaccessible.com/guides/mathematical-or-discipline-specific-technical-content/) (generalist, but some maths guidance)
+:::
+
+::: fragment
 - Accessibility checklists, e.g.
   - [A11y](https://www.a11yproject.com/checklist/)
   - [Designing for Diverse Learners](https://designingfordiverselearners.info/)
 :::
+::::
+
 
 ## Discussion
+
+:::: incremental
+::: {.loose-list}
 1. What tools are you using already?
 2. Did today's presentation give you any ideas?
 3. What do you want to do next?
 4. Opportunities for collaborations?
+:::
+::::
 
 ## Keep in touch!
+
 - Exchange contact details with anyone new you met today
 - Talk to us!
   - Tom Wicks ([tom.wicks@leicester.ac.uk](mailto:tom.wicks@leicester.ac.uk))
   - Rachel Tunstall ([rct13@leicester.ac.uk](mailto:rct13@leicester.ac.uk))
+
   
 ## {data-menu-title="Thank you" .center}
 [Thank you!]{.r-fit-text}
