@@ -243,7 +243,7 @@ theta = 2 * np.pi * r
 :::
 ::::
 
-## Maths is Special {data-menu-title="Animated code blocks" footer=false auto-animate=true}
+## Maths is Special {data-menu-title="Animated code blocks" visibility="uncounted" footer=false auto-animate=true}
 ### 4. Computing
 :::: columns
 ::: {.column width="40%"}
