@@ -11,7 +11,7 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
-    touch: true
+    touch: false
     controls: true
     footer: |
       <img src='Images/slides-qr.png'><br>
@@ -186,7 +186,7 @@ knitr::kable(mtcars)
 ```
 :::
 
-## Figure Example 2: Interactive Widgets {touch=false footer=false}
+## Figure Example 2: Interactive Widgets {footer=false}
 ```{r}
 #| echo: false
 #| fig-height: 5
