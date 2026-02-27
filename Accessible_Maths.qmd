@@ -20,6 +20,7 @@ format:
     css: styles.css
     code-fold: true
     highlight-style: pygments
+    output-file: "index"
 ---
 
 ## Disclaimers
@@ -39,7 +40,7 @@ format:
 -   Discussion
 -   Keep in touch!
 
-## Accessibility Principles
+## Accessibility Principles {footer=false}
 
 ![](Images/accessibility-logos.png){fig-alt="A human figure surrounded by icons representing different accessible technologies" .absolute top=100 right=10 height=400}
 
@@ -185,7 +186,7 @@ knitr::kable(mtcars)
 ```
 :::
 
-## Figure Example 2: Interactive Widgets {footer=false}
+## Figure Example 2: Interactive Widgets {touch=false footer=false}
 ```{r}
 #| echo: false
 #| fig-height: 5
@@ -271,7 +272,7 @@ plt.show()
 :::
 ::::
 
-## Maths is Special {data-menu-title="Line highlighting" visibility="uncounted" footer=false auto-animate=true}
+## Maths is Special {data-menu-title="Line highlighting" visibility="uncounted" footer=false}
 ### 4. Computing
 :::: columns
 ::: {.column width="40%"}
@@ -331,7 +332,7 @@ plt.show()
 <!-- ::: -->
 <!-- :::: -->
 
-## Maths is Special {data-menu-title="Code execution" visibility="uncounted" footer=false auto-animate=true}
+## Maths is Special {data-menu-title="Code execution" visibility="uncounted" footer=false}
 ### 4. Computing
 :::: columns
 ::: {.column width="40%"}
